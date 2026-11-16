@@ -18,7 +18,7 @@ Requirements: Python 3.11+. No API key is required to run the demo (see
 "Modes / providers" below).
 
 ```bash
-git clone <this repo> && cd AI_investigator
+git clone https://github.com/TotheSky0710/AI_Investigator.git && cd AI_investigator
 pip install -r requirements.txt
 
 # optional - enables LLM-generated assessments and per-case chat.
