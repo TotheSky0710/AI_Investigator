@@ -1,0 +1,5 @@
+.env
+~$*
+__pycache__/
+*.pyc
+data/case_state.json

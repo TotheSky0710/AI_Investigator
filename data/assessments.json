@@ -1,0 +1,406 @@
+{
+  "generated_at": "2026-11-16T05:52:27.689090+00:00",
+  "mode": "openai",
+  "assessments": {
+    "C1001": {
+      "case_id": "C1001",
+      "summary": "Escalate for review due to a duplicate claim number found across different cases, indicating possible claim recycling.",
+      "hypothesis": "This suggests potential fraud through cloned claims.",
+      "next_action": "Escalate to SIU and reconcile the duplicated claim number across cases before any payment action.",
+      "confidence": "high",
+      "generated_by": "gpt-4o-mini"
+    },
+    "C1002": {
+      "case_id": "C1002",
+      "summary": "Close this case as a likely false positive; all claim signals and risk metrics are normal.",
+      "hypothesis": "The claim appears benign with no indicators of fraud present.",
+      "next_action": "Close as likely false positive; no investigator action needed beyond a spot-check.",
+      "confidence": "high",
+      "generated_by": "gpt-4o-mini"
+    },
+    "C1003": {
+      "case_id": "C1003",
+      "summary": "Close this case as a likely false positive; all claim signals and risk metrics are normal.",
+      "hypothesis": "The claim appears benign with no indicators of fraud present.",
+      "next_action": "Close as likely false positive; no investigator action needed beyond a spot-check.",
+      "confidence": "high",
+      "generated_by": "gpt-4o-mini"
+    },
+    "C1004": {
+      "case_id": "C1004",
+      "summary": "Close this case as a likely false positive; all claim signals and risk metrics are normal.",
+      "hypothesis": "The claim appears benign with no indicators of fraud present.",
+      "next_action": "Close as likely false positive; no investigator action needed beyond a spot-check.",
+      "confidence": "high",
+      "generated_by": "gpt-4o-mini"
+    },
+    "C1005": {
+      "case_id": "C1005",
+      "summary": "Close this case as a likely false positive; all claim signals and risk metrics are normal.",
+      "hypothesis": "The claim appears benign with no indicators of fraud present.",
+      "next_action": "Close as likely false positive; no investigator action needed beyond a spot-check.",
+      "confidence": "high",
+      "generated_by": "gpt-4o-mini"
+    },
+    "C1006": {
+      "case_id": "C1006",
+      "summary": "Investigate claim LTC-2035578 for possible fraud due to multiple high-risk signals including duplicate services billed, shared contact information, and significant billing distance of 205 miles from the member. Total claim amount is $32,373 with a risk score of 98.8.",
+      "hypothesis": "Likely member-provider collusion exploiting billing practices.",
+      "next_action": "Assign to SIU for full investigation: pull visit logs and billing detail, and run a provider-level pattern review.",
+      "confidence": "high",
+      "generated_by": "gpt-4o-mini"
+    },
+    "C1007": {
+      "case_id": "C1007",
+      "summary": "Close claim LTC-2028505 as a likely false positive; all signals remain within normal ranges, with a minimal claim amount of $3,952. Confidence in this assessment is high due to the absence of any concerning signals.",
+      "hypothesis": "Claim is likely benign, showing no indicators of fraud.",
+      "next_action": "Close as likely false positive; no investigator action needed beyond a spot-check.",
+      "confidence": "high",
+      "generated_by": "gpt-4o-mini"
+    },
+    "C1008": {
+      "case_id": "C1008",
+      "summary": "Close claim LTC-2026189 as a likely false positive; all signals are within normal ranges and the claim amount is $3,586, indicating low risk. Confidence in this assessment is high due to no risk signals.",
+      "hypothesis": "Claim is likely benign and not indicative of fraud.",
+      "next_action": "Close as likely false positive; no investigator action needed beyond a spot-check.",
+      "confidence": "high",
+      "generated_by": "gpt-4o-mini"
+    },
+    "C1009": {
+      "case_id": "C1009",
+      "summary": "Close claim LTC-2030316 as a likely false positive; the claim amount of $5,922 in assisted living services comes with no concerning signals. Confidence in this assessment is high since all signals are normal.",
+      "hypothesis": "Claim is likely benign and not indicative of fraud.",
+      "next_action": "Close as likely false positive; no investigator action needed beyond a spot-check.",
+      "confidence": "high",
+      "generated_by": "gpt-4o-mini"
+    },
+    "C1010": {
+      "case_id": "C1010",
+      "summary": "Close claim LTC-2028647 as a likely false positive; all reviewable signals are within normal ranges, with a claim amount of $4,802. This indicates low risk of fraud.",
+      "hypothesis": "Claim is likely benign and poses no fraud concerns.",
+      "next_action": "Close as likely false positive; no investigator action needed beyond a spot-check.",
+      "confidence": "high",
+      "generated_by": "gpt-4o-mini"
+    },
+    "C1011": {
+      "case_id": "C1011",
+      "summary": "The claim has multiple significant risk signals: 9 weekly visits exceeds the normal range of 2-5, billing amount is 45% above peer average, and the weekend billing ratio of 31% is considerably higher than the standard of under 15%. Additionally, the provider is located 69 miles from the member, which is above the normal threshold and there has been a recent policy change that triggers suspicion of engineered claims.",
+      "hypothesis": "This is likely a case of billing fraud, possibly exploiting recent policy changes to increase claim amounts.",
+      "next_action": "Desk review: request supporting documentation (visit logs, invoices) and verify the anomalous signals before approving.",
+      "confidence": "high",
+      "generated_by": "gpt-4o-mini"
+    },
+    "C1012": {
+      "case_id": "C1012",
+      "summary": "This claim is assessed as low risk with all signals falling within normal ranges, indicating no unusual billing patterns or discrepancies. The claim amount of $3,859 for assisted living appears reasonable given the context.",
+      "hypothesis": "This claim is likely a false positive with no indicators of fraud.",
+      "next_action": "Close as likely false positive; no investigator action needed beyond a spot-check.",
+      "confidence": "high",
+      "generated_by": "gpt-4o-mini"
+    },
+    "C1013": {
+      "case_id": "C1013",
+      "summary": "The claim is classified as low risk with all indicators in the normal range, and the claim amount of $858 is typical for home health aide services. There are no concerning patterns detected.",
+      "hypothesis": "This claim is likely a false positive with no indicators of fraud.",
+      "next_action": "Close as likely false positive; no investigator action needed beyond a spot-check.",
+      "confidence": "high",
+      "generated_by": "gpt-4o-mini"
+    },
+    "C1014": {
+      "case_id": "C1014",
+      "summary": "All signals for this claim are within normal parameters, and the claim amount of $4,776 for home health aide services does not raise any red flags. No unusual patterns were noted.",
+      "hypothesis": "This claim is likely a false positive with no indicators of fraud.",
+      "next_action": "Close as likely false positive; no investigator action needed beyond a spot-check.",
+      "confidence": "high",
+      "generated_by": "gpt-4o-mini"
+    },
+    "C1015": {
+      "case_id": "C1015",
+      "summary": "This claim has multiple risk signals: it indicates duplicate service billing, an 8 weekly visit frequency beyond the norm, and a weekend billing ratio of 27%, which is above the expected range. The claim of $8,176 for adult day care raises concern compared to the peer activity.",
+      "hypothesis": "This may be indicative of billing fraud, particularly with potential multiple service claims submitted.",
+      "next_action": "Desk review: request supporting documentation (visit logs, invoices) and verify the anomalous signals before approving.",
+      "confidence": "medium",
+      "generated_by": "gpt-4o-mini"
+    },
+    "C1016": {
+      "case_id": "C1016",
+      "summary": "The claim for $11,232 in in-home care shows multiple concerns: duplicate service billed, excessive visit frequency at 8 per week, and a round-dollar billing ratio of 46%.",
+      "hypothesis": "Likely billing fraud due to inflated service frequency and potential duplication of services.",
+      "next_action": "Desk review: request supporting documentation (visit logs, invoices) and verify the anomalous signals before approving.",
+      "confidence": "medium",
+      "generated_by": "gpt-4o-mini"
+    },
+    "C1017": {
+      "case_id": "C1017",
+      "summary": "The claim for $1,564 in in-home care has all signals within normal range, indicating no issues.",
+      "hypothesis": "Likely a false positive with no signs of fraud present.",
+      "next_action": "Close as likely false positive; no investigator action needed beyond a spot-check.",
+      "confidence": "high",
+      "generated_by": "gpt-4o-mini"
+    },
+    "C1018": {
+      "case_id": "C1018",
+      "summary": "The claim for $2,972 in adult day care shows no anomalies and falls within normal range.",
+      "hypothesis": "Likely a false positive with no signs of fraud present.",
+      "next_action": "Close as likely false positive; no investigator action needed beyond a spot-check.",
+      "confidence": "high",
+      "generated_by": "gpt-4o-mini"
+    },
+    "C1019": {
+      "case_id": "C1019",
+      "summary": "The claim for $14,722 in adult day care shows a high round-dollar billing ratio of 38%, a weekend billing ratio of 23%, and shared contact information with the provider, raising concerns.",
+      "hypothesis": "Potential fraud due to unusually high billing practices and sharing contact information with the provider.",
+      "next_action": "Desk review: request supporting documentation (visit logs, invoices) and verify the anomalous signals before approving.",
+      "confidence": "medium",
+      "generated_by": "gpt-4o-mini"
+    },
+    "C1020": {
+      "case_id": "C1020",
+      "summary": "The claim for $2,726 in assisted living care has all signals within normal range, indicating no anomalies.",
+      "hypothesis": "Likely a false positive with no signs of fraud present.",
+      "next_action": "Close as likely false positive; no investigator action needed beyond a spot-check.",
+      "confidence": "high",
+      "generated_by": "gpt-4o-mini"
+    },
+    "C1021": {
+      "case_id": "C1021",
+      "summary": "High-risk claim due to multiple fraud indicators including duplicate services billed, shared contact info, and high weekly visit frequency of 13.0 visits. The claim amount of $35,089 also significantly exceeds peer averages by 146%.",
+      "hypothesis": "Likely collusion between member and provider with engineered billing patterns.",
+      "next_action": "Assign to SIU for full investigation: pull visit logs and billing detail, and run a provider-level pattern review.",
+      "confidence": "high",
+      "generated_by": "gpt-4o-mini"
+    },
+    "C1022": {
+      "case_id": "C1022",
+      "summary": "Low-risk claim with all signals within normal range, leading to a risk score of 0. Claim amount of $4,554 is deemed typical for services rendered in Florida.",
+      "hypothesis": "Claim is likely benign with no suspicion of fraud.",
+      "next_action": "Close as likely false positive; no investigator action needed beyond a spot-check.",
+      "confidence": "high",
+      "generated_by": "gpt-4o-mini"
+    },
+    "C1023": {
+      "case_id": "C1023",
+      "summary": "High-risk claim indicating possible member-provider collusion, as the provider shared contact info and has overlapping services identified. The total claim amount is $10,169, with a concerning visit frequency of 9.0 times per week.",
+      "hypothesis": "Potential collusion or deceptive billing practices due to suspicious patterns.",
+      "next_action": "Assign to SIU for full investigation: pull visit logs and billing detail, and run a provider-level pattern review.",
+      "confidence": "medium",
+      "generated_by": "gpt-4o-mini"
+    },
+    "C1024": {
+      "case_id": "C1024",
+      "summary": "High-risk claim with critical indicators of fraud including duplicate services billed, shared contact info, and excessive weekly visit frequency averaging 18.0. The claim amount of $66,655 further elevates risk concerns.",
+      "hypothesis": "Likely collusion between member and provider as evidenced by multiple high-risk signals.",
+      "next_action": "Assign to SIU for full investigation: pull visit logs and billing detail, and run a provider-level pattern review.",
+      "confidence": "high",
+      "generated_by": "gpt-4o-mini"
+    },
+    "C1025": {
+      "case_id": "C1025",
+      "summary": "Medium-risk claim with a risk score of 8.5, characterized by some alarming indicators such as a high round-dollar billing ratio. However, it does not present clear patterns of fraud.",
+      "hypothesis": "Potential documentation issues rather than outright fraud.",
+      "next_action": "Desk review: request supporting documentation (visit logs, invoices) and verify the anomalous signals before approving.",
+      "confidence": "medium",
+      "generated_by": "gpt-4o-mini"
+    },
+    "C1026": {
+      "case_id": "C1026",
+      "summary": "Close as likely false positive; signals show weekend billing at 30%, member-provider distance at 54 miles, and weekly visits at 6, all indicating potential anomalies, but the overall risk is low.",
+      "hypothesis": "Likely benign but warrants a spot-check due to minor anomalies in billing patterns.",
+      "next_action": "Close as likely false positive; no investigator action needed beyond a spot-check.",
+      "confidence": "high",
+      "generated_by": "gpt-4o-mini"
+    },
+    "C1027": {
+      "case_id": "C1027",
+      "summary": "Close as likely false positive; all signals are within normal range and do not indicate any fraudulent activity.",
+      "hypothesis": "No signs of fraud, case likely benign.",
+      "next_action": "Close as likely false positive; no investigator action needed beyond a spot-check.",
+      "confidence": "high",
+      "generated_by": "gpt-4o-mini"
+    },
+    "C1028": {
+      "case_id": "C1028",
+      "summary": "Close as likely false positive; all signals are within normal range, indicating no areas of concern.",
+      "hypothesis": "No signs of fraud are present, case appears benign.",
+      "next_action": "Close as likely false positive; no investigator action needed beyond a spot-check.",
+      "confidence": "high",
+      "generated_by": "gpt-4o-mini"
+    },
+    "C1029": {
+      "case_id": "C1029",
+      "summary": "Close as likely false positive; claim signals are all within normal parameters, presenting no risk factors.",
+      "hypothesis": "Case likely benign with no indications of fraud.",
+      "next_action": "Close as likely false positive; no investigator action needed beyond a spot-check.",
+      "confidence": "high",
+      "generated_by": "gpt-4o-mini"
+    },
+    "C1030": {
+      "case_id": "C1030",
+      "summary": "Assign to SIU for full investigation; multiple high-risk signals including duplicate billing, collusion indicators, and excessive billing frequency confirmed.",
+      "hypothesis": "Likely collusion due to multiple overlapping fraud indicators.",
+      "next_action": "Assign to SIU for full investigation: pull visit logs and billing detail, and run a provider-level pattern review.",
+      "confidence": "high",
+      "generated_by": "gpt-4o-mini"
+    },
+    "C1031": {
+      "case_id": "C1031",
+      "summary": "Escalate claim LTC-2034786 due to multiple high-risk signals including duplicate services and shared provider contact info. There is also a significant billing amount at 133% above peers.",
+      "hypothesis": "Likely member-provider collusion due to the presence of duplicate billing and shared contact info.",
+      "next_action": "Escalate to SIU and reconcile the duplicated claim number across cases before any payment action.",
+      "confidence": "high",
+      "generated_by": "gpt-4o-mini"
+    },
+    "C1032": {
+      "case_id": "C1032",
+      "summary": "Claim LTC-2031140 requires a full investigation based on detected signals of duplicate services and shared contact with the provider. Although the amount billed is within peer range, multiple alerts indicate high risk.",
+      "hypothesis": "Possible member-provider collusion as indicated by duplicate services and shared contact information.",
+      "next_action": "Assign to SIU for full investigation: pull visit logs and billing detail, and run a provider-level pattern review.",
+      "confidence": "medium",
+      "generated_by": "gpt-4o-mini"
+    },
+    "C1033": {
+      "case_id": "C1033",
+      "summary": "Investigation is needed for claim LTC-2033067, which shows duplicate service billing and shared provider contact information, raising significant concerns of potential fraud.",
+      "hypothesis": "There may be collusion at play given the duplication of services and contact information sharing.",
+      "next_action": "Assign to SIU for full investigation: pull visit logs and billing detail, and run a provider-level pattern review.",
+      "confidence": "medium",
+      "generated_by": "gpt-4o-mini"
+    },
+    "C1034": {
+      "case_id": "C1034",
+      "summary": "Claim LTC-2032889 has high alert signals including duplicate services billed and excessive charges at 155% above peers, warranting significant scrutiny.",
+      "hypothesis": "Likely member-provider collusion with engineered claims due to shared information and duplicative billing.",
+      "next_action": "Assign to SIU for full investigation: pull visit logs and billing detail, and run a provider-level pattern review.",
+      "confidence": "high",
+      "generated_by": "gpt-4o-mini"
+    },
+    "C1035": {
+      "case_id": "C1035",
+      "summary": "Claim LTC-2035940 is to be closed as all signals are within normal range, indicating it is likely a false positive with no further threats identified.",
+      "hypothesis": "Claim appears benign as all indicators fall within acceptable limits.",
+      "next_action": "Close as likely false positive; no investigator action needed beyond a spot-check.",
+      "confidence": "high",
+      "generated_by": "gpt-4o-mini"
+    },
+    "C1036": {
+      "case_id": "C1036",
+      "summary": "This claim exhibits multiple high-risk signals including duplicate billing, shared contact information, and service overlap, leading to a high-risk score of 100. Given the significant discrepancies and the possibility of collusion, a full investigation is warranted.",
+      "hypothesis": "The likely fraud scheme involves member-provider collusion, as indicated by shared contact information and overlapping billing.",
+      "next_action": "Assign to SIU for full investigation: pull visit logs and billing detail, and run a provider-level pattern review.",
+      "confidence": "high",
+      "generated_by": "gpt-4o-mini"
+    },
+    "C1037": {
+      "case_id": "C1037",
+      "summary": "Similar to case C1036, this claim presents high-risk signals including duplicate billing and shared contact information, with a risk score of 100. The patterns suggest potential collusion or scheme manipulation following a recent policy change, reinforcing the need for further scrutiny.",
+      "hypothesis": "The case suggests likely collusion between the member and provider, as indicated by significant overlaps in billing and shared contact information.",
+      "next_action": "Assign to SIU for full investigation: pull visit logs and billing detail, and run a provider-level pattern review.",
+      "confidence": "high",
+      "generated_by": "gpt-4o-mini"
+    },
+    "C1038": {
+      "case_id": "C1038",
+      "summary": "This claim has a low-risk score of 0, with all signals within normal ranges, suggesting no indicators of fraud. No further investigation is warranted, and it is likely a false positive.",
+      "hypothesis": "This case is likely benign, showing no signs of fraud based on normal signal values.",
+      "next_action": "Close as likely false positive; no investigator action needed beyond a spot-check.",
+      "confidence": "high",
+      "generated_by": "gpt-4o-mini"
+    },
+    "C1039": {
+      "case_id": "C1039",
+      "summary": "With a risk score of 0 and all signals reported within normal ranges, this claim is assessed as low risk. It appears to be a false positive with no fraud indicators present.",
+      "hypothesis": "This claim likely reflects normal activity, indicating no signs of fraud.",
+      "next_action": "Close as likely false positive; no investigator action needed beyond a spot-check.",
+      "confidence": "high",
+      "generated_by": "gpt-4o-mini"
+    },
+    "C1040": {
+      "case_id": "C1040",
+      "summary": "This claim shows a medium risk score of 9.4, with signals of unusual visit frequency and billing ratios. Review of supporting documentation is needed to confirm legitimacy given the discrepancies.",
+      "hypothesis": "There may be issues with billing practices but not indicative of fraud without further evidence.",
+      "next_action": "Desk review: request supporting documentation (visit logs, invoices) and verify the anomalous signals before approving.",
+      "confidence": "medium",
+      "generated_by": "gpt-4o-mini"
+    },
+    "C1041": {
+      "case_id": "C1041",
+      "summary": "This claim is likely a false positive; all signals are within normal range and the risk score is low.",
+      "hypothesis": "The absence of any anomalies suggests no fraudulent activity is present.",
+      "next_action": "Close as likely false positive; no investigator action needed beyond a spot-check.",
+      "confidence": "high",
+      "generated_by": "gpt-4o-mini"
+    },
+    "C1042": {
+      "case_id": "C1042",
+      "summary": "This claim has several anomalies, including a billed amount that is 44% above peer average and a weekly visit frequency of 7, which exceeds the normal range.",
+      "hypothesis": "This case may involve overbilling or fraudulent billing practices given the irregularities present.",
+      "next_action": "Desk review: request supporting documentation (visit logs, invoices) and verify the anomalous signals before approving.",
+      "confidence": "medium",
+      "generated_by": "gpt-4o-mini"
+    },
+    "C1043": {
+      "case_id": "C1043",
+      "summary": "This claim is likely a false positive; all signals are within normal range and the risk score is low.",
+      "hypothesis": "The absence of any anomalies suggests no fraudulent activity is present.",
+      "next_action": "Close as likely false positive; no investigator action needed beyond a spot-check.",
+      "confidence": "high",
+      "generated_by": "gpt-4o-mini"
+    },
+    "C1044": {
+      "case_id": "C1044",
+      "summary": "This claim is likely a false positive; all signals are within normal range and the risk score is low.",
+      "hypothesis": "The absence of any anomalies suggests no fraudulent activity is present.",
+      "next_action": "Close as likely false positive; no investigator action needed beyond a spot-check.",
+      "confidence": "high",
+      "generated_by": "gpt-4o-mini"
+    },
+    "C1045": {
+      "case_id": "C1045",
+      "summary": "This claim is likely a false positive; all signals are within normal range and the risk score is low.",
+      "hypothesis": "The absence of any anomalies suggests no fraudulent activity is present.",
+      "next_action": "Close as likely false positive; no investigator action needed beyond a spot-check.",
+      "confidence": "high",
+      "generated_by": "gpt-4o-mini"
+    },
+    "C1046": {
+      "case_id": "C1046",
+      "summary": "Close as likely false positive; all claim signals are within normal range and risk score is 0.",
+      "hypothesis": "This claim appears benign as it does not trigger any risk signals.",
+      "next_action": "Close as likely false positive; no investigator action needed beyond a spot-check.",
+      "confidence": "high",
+      "generated_by": "gpt-4o-mini"
+    },
+    "C1047": {
+      "case_id": "C1047",
+      "summary": "Close as likely false positive; all claim signals are within normal range and risk score is 0.",
+      "hypothesis": "This claim appears benign as it does not trigger any risk signals.",
+      "next_action": "Close as likely false positive; no investigator action needed beyond a spot-check.",
+      "confidence": "high",
+      "generated_by": "gpt-4o-mini"
+    },
+    "C1048": {
+      "case_id": "C1048",
+      "summary": "Close as likely false positive; all claim signals are within normal range and risk score is 0.",
+      "hypothesis": "This claim appears benign as it does not trigger any risk signals.",
+      "next_action": "Close as likely false positive; no investigator action needed beyond a spot-check.",
+      "confidence": "high",
+      "generated_by": "gpt-4o-mini"
+    },
+    "C1049": {
+      "case_id": "C1049",
+      "summary": "Close as likely false positive; all claim signals are within normal range and risk score is 0.",
+      "hypothesis": "This claim appears benign as it does not trigger any risk signals.",
+      "next_action": "Close as likely false positive; no investigator action needed beyond a spot-check.",
+      "confidence": "high",
+      "generated_by": "gpt-4o-mini"
+    },
+    "C1050": {
+      "case_id": "C1050",
+      "summary": "Desk review needed; multiple flags including duplicate billing, high visit frequency, and excessive prior claims indicate potential fraud risk.",
+      "hypothesis": "The claim may involve potential fraud due to duplicate service billing and excessive visit frequency.",
+      "next_action": "Desk review: request supporting documentation (visit logs, invoices) and verify the anomalous signals before approving.",
+      "confidence": "medium",
+      "generated_by": "gpt-4o-mini"
+    }
+  }
+}

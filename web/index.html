@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Junior AI Investigator - Case Review</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <span>Junior AI Investigator</span>
+      <span class="brand-sub">Fraud Case Review</span>
+    </div>
+    <div id="mode-badge" class="mode-badge" title=""></div>
+  </header>
+
+  <section id="briefing" class="briefing"></section>
+
+  <main class="layout">
+    <aside class="queue-panel">
+      <div class="queue-header">
+        <div class="tabs" id="tier-tabs">
+          <button data-tier="all" class="tab active">All</button>
+          <button data-tier="high" class="tab">High</button>
+          <button data-tier="medium" class="tab">Medium</button>
+          <button data-tier="low" class="tab">Low</button>
+          <button data-tier="open" class="tab">Open</button>
+        </div>
+      </div>
+      <div id="queue-list" class="queue-list"></div>
+    </aside>
+
+    <section id="case-panel" class="case-panel">
+      <div class="placeholder">
+        <p>Select a case from the queue.</p>
+        <p class="hint">The AI has already triaged all 50 referrals. Start with the high-risk cases in the morning briefing.</p>
+      </div>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
